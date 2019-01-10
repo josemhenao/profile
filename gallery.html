@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>&#702;&#921;&#969;&#963;&#942;&#966; Gallery</title>
+    <link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="behavior_gallery.js"></script>
+</head>
+<body>
+    <header>
+        <div class="right">
+            <a href="https://twitter.com/josemhc?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @josemhc</a><script async src="https://platform.twitter.com/widgets.js"></script>
+            <a href="https://github.com/josemhenao"><img src="github_logo.svg" alt="josemhenao on Github" class="social_link"></a>
+            <a href="https://www.linkedin.com/in/josemhenao/"><img src="linkedin_logo.png" alt="josemhenao on Linkedin" class="social_link"></a>
+        </div>
+        <div class="header-links">
+            <ul> 
+              <li class="logo"><a class="logo" href="/">&#702;&#921;&#969;&#963;&#942;&#966;</a></li>
+              <li><a href="tweets.html" class="link">Tweets</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <article class="article-gallery">
+            <h3>Photo Gallery</h3>
+            <p>Here you can find some pictures to get to know me better; <strong>click for more</strong></p>
+
+            <div class="gallery-row">
+                <div class="photo-item">
+                    <img src="bycicle.jpg" alt="Riding a bicycle" class="small">
+                    <p style="display: none;" class='alt-img'>I really like to ride on bicycle</p>
+                </div>
+                <div class="photo-item">
+                    <img src="stone.jpg" alt="Stone in San Vicente Antioquia, COL" class="small">
+                    <p style="display: none;" class='alt-img'>View from a large stone in San Vicente Antioquia, COL</p>
+                </div>  
+            </div>
+
+            <div class="gallery-row">
+                <div class="photo-item">
+                    <img src="moon.jpg" alt="View of the Moon from my house" class="small">
+                    <p style="display: none;" class='alt-img'>View of the Moon from my house</p>
+                </div>
+                <div class="photo-item">
+                    <img src="the_way.jpg" alt="Just before arriving at my house you can find this way" class="small">
+                    <p style="display: none;" class='alt-img'>Just before arriving at my house you can find this way</p>
+                </div>  
+            </div>
+
+            <div class="gallery-row">
+                <div class="photo-item">
+                    <img src="afternoon.jpg" alt="Around 6 pm it is common to see this type of sunsets from some hill of Rionegro" class="small">
+                    <p style="display: none;" class='alt-img'>Around 6 pm it is common to see this type of sunsets from some hill of Rionegro</p>
+                </div>
+                <div class="photo-item">
+                    <img src="cousins.jpg" alt="My Cousins and I" class="small">
+                    <p style="display: none;" class='alt-img'>One of the things that I like to do most is spend time with my cousins in country places, there we can run and enjoy nature</p>
+                </div>  
+            </div>
+
+        </article>
+        <aside>
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+             */
+            /*
+            var disqus_config = function () {
+                this.page.url = "/";  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = 3; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() {  // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                
+                s.src = 'https://josemhenao-1.disqus.com/embed.js';
+                
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>                            
+    </aside>
+    </main>
+
+    <footer>
+      Made by <a href="https://twitter.com/josemhc" target="_blank" class="link">José Miguel Henao Cardona</a> for <a href="https://www.holbertonschool.com" target="_blank" class="link">Holberton School</a>
+    </footer>
+    <script id="dsq-count-scr" src="//josemhenao-1.disqus.com/count.js" async></script>
+</body>
+</html>
